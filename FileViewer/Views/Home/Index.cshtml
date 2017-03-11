@@ -1,0 +1,46 @@
+﻿@model System.Data.DataTable
+@using System.Data;
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>CSV Viewer</h1>     
+</div>
+@using (Html.BeginForm("Index","Home",FormMethod.Post,new { encType = "multipart/form-data" }))
+{
+    <div class="row">
+        <div>
+            <label for="file">Filename:</label>
+            <input type="file" name="uploadedFile" id="uploadedFile" />
+            <input type="submit" />                                    
+        </div>
+        <br />
+        <div name="csvData" id="csvData" class="col-md-4">
+            @if (Model != null)
+            {
+            <table>
+                <thead>
+                    <tr>
+                        @foreach (DataColumn col in Model.Columns)
+                        {
+                            <th>@col.ColumnName</th>
+                        }
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (DataRow row in Model.Rows)
+                    {
+                        <tr>
+                            @foreach (DataColumn col in Model.Columns)
+                            {
+                                <td>@row[col.ColumnName]</td>
+                            }
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            }
+        </div>
+    </div>
+}

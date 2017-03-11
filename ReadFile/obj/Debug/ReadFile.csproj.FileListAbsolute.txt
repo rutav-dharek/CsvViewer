@@ -1,0 +1,4 @@
+E:\Learning\Visual Studio 2015 Projects\FileViewer\ReadFile\bin\Debug\ReadFile.dll
+E:\Learning\Visual Studio 2015 Projects\FileViewer\ReadFile\bin\Debug\ReadFile.pdb
+E:\Learning\Visual Studio 2015 Projects\FileViewer\ReadFile\obj\Debug\ReadFile.dll
+E:\Learning\Visual Studio 2015 Projects\FileViewer\ReadFile\obj\Debug\ReadFile.pdb

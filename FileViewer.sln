@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileViewer", "FileViewer\FileViewer.csproj", "{F39351C4-AB07-4007-BFEE-432F851A5EC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileViewer.Tests", "FileViewer.Tests\FileViewer.Tests.csproj", "{A57A5768-7F31-4C1F-87AD-3E8C0CC8978F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadFile", "ReadFile\ReadFile.csproj", "{D61A8C59-8836-4B12-BE01-295267F311EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F39351C4-AB07-4007-BFEE-432F851A5EC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F39351C4-AB07-4007-BFEE-432F851A5EC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F39351C4-AB07-4007-BFEE-432F851A5EC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F39351C4-AB07-4007-BFEE-432F851A5EC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A57A5768-7F31-4C1F-87AD-3E8C0CC8978F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A57A5768-7F31-4C1F-87AD-3E8C0CC8978F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A57A5768-7F31-4C1F-87AD-3E8C0CC8978F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A57A5768-7F31-4C1F-87AD-3E8C0CC8978F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D61A8C59-8836-4B12-BE01-295267F311EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D61A8C59-8836-4B12-BE01-295267F311EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D61A8C59-8836-4B12-BE01-295267F311EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D61A8C59-8836-4B12-BE01-295267F311EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
